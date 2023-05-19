@@ -17,11 +17,11 @@ Terminal: Gnome Terminal (default)
 
 Shell: ZSH
 - Setup: oh-my-zsh
-- Theme: powerlevel10k
+- Theme: af-magic
 - plugins: autosuggestions, syntax-highlighting
 
 Other Software: 
 - Tmux
 - Neovim
-- colorls
+- exa
 - Doom Emacs
