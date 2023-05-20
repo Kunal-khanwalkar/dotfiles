@@ -1,9 +1,10 @@
+#!/bin/sh
+
 # Install git
-git --version 2>&1 >/dev/null # improvement by tripleee
-GIT_IS_AVAILABLE=$?
-if [ $GIT_IS_AVAILABLE -eq 0 ]; then
-    sudo apt install git
-fi
+sudo apt install git
+
+# Install zsh
+sudo apt install zsh
 
 # Install oh-my-zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
