@@ -4,7 +4,7 @@
 sudo apt install git
 
 # Install zsh
-sudo apt install zsh
+sudo apt install zsh tmux exa neovim
 
 # Install oh-my-zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
@@ -15,3 +15,6 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:
 
 # Update zshrc
 cat ${PWD}/.zshrc > ~/.zshrc
+
+# Add prompts.txt
+cp ${PWD}/prompts.txt ~/prompts.txt
