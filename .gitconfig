@@ -1,0 +1,7 @@
+[user]
+	name = Kunal-khanwalkar
+	email = kunalkhanwalkar@gmail.com
+[init]
+	defaultBranch = main
+[core]
+	editor = nvim

@@ -4,7 +4,11 @@
 sudo apt install git
 
 # Install zsh
-sudo apt install zsh tmux exa neovim
+sudo apt install zsh tmux exa
+
+# Neovim config
+mkdir -p ~/.config/nvim
+git clone git@github.com:Kunal-khanwalkar/nvim-config.git ~/.config/nvim
 
 # Install oh-my-zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
