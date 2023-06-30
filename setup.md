@@ -36,4 +36,4 @@ Other Software:
 - Tmux
 - Neovim
 - exa
-- Doom Emacs
+- Lite-xl
