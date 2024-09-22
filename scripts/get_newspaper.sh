@@ -20,9 +20,10 @@ mkdir ~/.local/bin/$today_date
 for i in {01..50}
 do
     url="https://asset.harnscloud.com/PublicationData/TOI/cap/$yyyy/$mm/$dd/Page/$today_date_underscore""_0$i""_cap.jpg"
-    wget -nv -O ~/.local/bin/$today_date/$i.jpg $url
+    wget -nv -O ~/.local/bin/$today_date/$i.jpg $url --referer='https://bcclepaper.indiatimes.com/'
 done
 
 sxiv ~/.local/bin/$today_date/*
 
 rm -rf ~/.local/bin/$today_date
+
